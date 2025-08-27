@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        "Helvetica Neue",
+        Arial,
+        "Noto Sans",
+        sans-serif,
+        "Apple Color Emoji",
+        "Segoe UI Emoji",
+        "Segoe UI Symbol",
+        "Noto Color Emoji";
+    text-decoration: none;
+    
+}
+.signup{
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+.leftside{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 15px;
+    align-items: center;
+}
+.rightside{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 15px;
+    align-items: center;
+}
+.leftside a{
+    margin-top: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color: rgb(107, 114, 128);
+}
+.rightside a{
+    gap: 25px;
+    margin-top: 20px;
+    margin-right: 15px;
+    text-decoration: none;
+    color:rgb(107, 114, 128);
+}
+.rightside a:last-child{
+    background-color: blue;
+    border: 2px solid blue;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+
