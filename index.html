@@ -33,22 +33,32 @@
 
     <div class="Working">
         <div class="Hiw">
-            <b><h3>How it works</h3></b>  
+            <b><h3>How it works</h3></b>
+            <br>
             sqlc generates full y type-safe idiomatic code from SQL.
+            <br>
+            <br>
             <ol>
-                <li>You write SQL queries</li>
-                <li>You run sqlc to generate code that presents type-safe interfaces to those queries</li>
-                <li>You write application code calling the methods sqlc generated.
-                Seriously, it's that easy. You don't have to write any boilerplate SQL querying code ever again. See the current list of <a href="https://docs.sqlc.dev/en/stable/reference/language-support.html">supported programming languages and databases</a></li>
+                <li>You write SQL queries</li><br>
+                <li>You run sqlc to generate code that presents type-safe interfaces to those queries</li><br>
+                <li>You write application code calling the methods sqlc generated.</li>
+                <br><br>
+                Seriously, it's that easy. You don't have to write any boilerplate SQL querying code ever again. See the current list of
+                <a href="https://docs.sqlc.dev/en/stable/reference/language-support.html">supported programming languages and
+                    databases</a>
             </ol>
         </div>
         <div class="Verify">
             <h3>✨ Verify Schema changes ✨</h3>
-            <p>Schema updates and poorly-written queries often bring down production databases. That’s bad.
-            
-            When a schema change is proposed, existing queries and code running in production might fail when the schema change is
+            <br>
+            <p>Schema updates and poorly-written queries often bring down production databases. That’s bad.</p>
+            <br>
+            <p>When a schema change is proposed, existing queries and code running in production might fail when the schema change is
             applied. Enter <b><span>`sqlc verify`</span></b> , which analyzes existing queries against new schema changes and errors if there are any
             issues.</p>
+            <br>
+            <br>
+            <p>See it in action <a href="https://sqlc.dev/posts/2023/11/21/sqlc-v1-24-0-verify-schema-changes/">here</a></p>
         </div>
     </div>
         
