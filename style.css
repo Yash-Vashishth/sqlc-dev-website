@@ -33,8 +33,10 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    gap: 15px;
+    gap: 30px;
     align-items: center;
+    margin-top: -10px;
+    margin-left: 10px;
 }
 .rightside{
     display: flex;
@@ -58,10 +60,91 @@
     color:rgb(107, 114, 128);
 }
 .rightside a:last-child{
-    background-color: blue;
-    border: 2px solid blue;
+    background-color: indigo;
+    border: 2px solid indigo;
     border-radius: 5px;
     padding: 10px;
     color: white;
 }
+.Header{
+    display: flex;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(238, 236, 236);
+    
+}
+.Header a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 150px;
+    right: 600px;
+    margin: 0,auto;
+    text-decoration: none;
+    color: white;
+    background-color: indigo;
+    padding: 20px;
+    border-radius: 10px;
+    height: 60px;
+    width: 200px;
 
+}
+.Header h2{
+    display: flex;
+    margin-bottom: 20px;
+    font-size: 4rem;
+    gap: 0.5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.Working{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+.Hiw{
+    display: inline-block;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    
+    height: 300px;
+    width: 900px;
+    border: 2px solid black;
+}
+.Hiw h3{
+    display: flex;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.Verify{
+    display: inline-block;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    
+        height: 300px;
+        width: 900px;
+        border: 2px solid black;
+}
+.Verify h3 {
+    display: flex;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.Verify span {
+    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+}

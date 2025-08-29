@@ -8,9 +8,8 @@
 </head>
 <body>
     <div class="navbar">
-        
         <div class="leftside">
-            <img src="./name.jpeg" alt="" />
+            <a href="https://www.sqlc.dev"><img src="./name.jpeg" alt="" /></a>
             <a href="https://docs.sqlc.dev/">Docs</a>
             <a href="https://sqlc.dev/changelog/">Changelog</a>
             <a href="https://play.sqlc.dev/">Playground</a>
@@ -22,6 +21,34 @@
             <a href="https://github.com/sqlc-dev/sqlc"><span>15.5k</span></a>
             <a href="https://discord.com/invite/EcXzGe5SEs"><img src="./discord.jpeg" alt="" height="30px" /></a>
             <a href="https://dashboard.sqlc.dev/" class="signupbox"><b>Sign up</b></a>
+        </div>
+    </div>
+
+    <div class="Header">
+        <h2><b>Compile SQL to type-safe code;
+            <br>
+        catch failures before they happen.</b></h2>
+        <a href="https://docs.sqlc.dev/en/stable/tutorials/getting-started.html" class="button1"><h4>Get Started</h4></a>
+    </div>
+
+    <div class="Working">
+        <div class="Hiw">
+            <b><h3>How it works</h3></b>  
+            sqlc generates full y type-safe idiomatic code from SQL.
+            <ol>
+                <li>You write SQL queries</li>
+                <li>You run sqlc to generate code that presents type-safe interfaces to those queries</li>
+                <li>You write application code calling the methods sqlc generated.
+                Seriously, it's that easy. You don't have to write any boilerplate SQL querying code ever again. See the current list of <a href="https://docs.sqlc.dev/en/stable/reference/language-support.html">supported programming languages and databases</a></li>
+            </ol>
+        </div>
+        <div class="Verify">
+            <h3>✨ Verify Schema changes ✨</h3>
+            <p>Schema updates and poorly-written queries often bring down production databases. That’s bad.
+            
+            When a schema change is proposed, existing queries and code running in production might fail when the schema change is
+            applied. Enter <b><span>`sqlc verify`</span></b> , which analyzes existing queries against new schema changes and errors if there are any
+            issues.</p>
         </div>
     </div>
         
